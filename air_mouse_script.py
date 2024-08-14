@@ -39,7 +39,7 @@ data = []
 pyautogui.PAUSE = 0
 button_pressed = False
 
-print("Glove Script Init. complete")
+print("air Script Init. complete")
 while True:
     if ser.in_waiting > 0:
         data = ser.readline().decode().rstrip()
