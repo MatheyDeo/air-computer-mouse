@@ -40,7 +40,7 @@ void loop() {//--------------------Loop
   sensors_event_t a, g, temp;
   mpu.getEvent(&a, &g, &temp);
   
-  // Prints out everything to the serial for "Glove_mouse_script.py" to read
+  // Prints out everything to the serial for "air_mouse_script.py" to read
   Serial.print("S");
   Serial.print(String(digitalRead(button1)));
   Serial.print(",");
